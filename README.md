@@ -49,7 +49,7 @@ mto('MTLMTO', {'WCCI20-MaTSO1','WCCI20-MaTSO2','WCCI20-MaTSO3','WCCI20-MaTSO4','
 
 ```matlab
 # multitask robot navigation application
-mto('MTLMTO', {'MRNP1','MRNP2','MRNP3','MRNP4','MRNP5','MRNP6','MRNP7','MRNP8','MRNP9','MRNP10','MRNP11','MRNP12','MRNP13','MRNP14'}, 30, true, 11, true, 'MTLMTO-MRNP10-Dec');
+mto('MTLMTO', {'MRNP1','MRNP2','MRNP3','MRNP4','MRNP5','MRNP6','MRNP7','MRNP8','MRNP9','MRNP10','MRNP11','MRNP12','MRNP13','MRNP14'}, 30, true, 11, true, 'MTLMTO-MRNP');
 ```
 
 ## 致谢
