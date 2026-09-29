@@ -12,7 +12,7 @@ classdef WCCI20_MaTSO4 < Problem
 methods
     function Prob = WCCI20_MaTSO4(varargin)
         Prob = Prob@Problem(varargin);
-        Prob.maxFE = 500 * 50 * Prob.T;
+        Prob.maxFE = 1000 * 100 * Prob.T;
     end
 
     function Parameter = getParameter(Prob)
@@ -38,9 +38,6 @@ methods
             T = Prob.defaultT;
             Prob.T = Prob.defaultT;
         end
-
-        T = 10;
-        Prob.T = 10;
 
         Tasks = benchmark_WCCI20_MaTSO(4, T);
         Prob.D = [];

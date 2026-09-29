@@ -12,7 +12,7 @@ classdef WCCI20_MaTSO9 < Problem
 methods
     function Prob = WCCI20_MaTSO9(varargin)
         Prob = Prob@Problem(varargin);
-        Prob.maxFE = 500 * 100 * Prob.T;
+        Prob.maxFE = 1000 * 100 * Prob.T;
     end
 
     function Parameter = getParameter(Prob)
