@@ -132,7 +132,7 @@ methods
             if flag
                 fprintf('%d\t', Algo.Gen);
             else
-                fprintf('%d\t', Algo.Gen);
+                fprintf('end %d\t', Algo.Gen);
             end
             for i = 1:n
                 obj = Algo.Best{i}.Obj;
